@@ -294,6 +294,12 @@ nav {
     width: 70%;
 }
 
+.work__info--para {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7c8ba1;
+}
+
 .work__img {
     width: 50%;
     border: 1px solid rgb(211, 211, 211, 0.45);
@@ -381,6 +387,7 @@ nav {
 .values__info--text {
     color: #7c8ba1;
     font-size: 18px;
+    font-weight: 500;
     margin-top: 32px;
 }
 
@@ -942,6 +949,7 @@ footer {
 
     .steps__info {
         width: 100%;
+        margin-left: 0;
     }
 
     .steps__list {
@@ -1032,6 +1040,7 @@ footer {
 
    .plan--wrapper {
     width: 90%;
+    padding-right: 0;
    }
 
    .plan__price {
@@ -1072,3 +1081,89 @@ footer {
     margin-right: 8px;
    }
 }
+
+
+/* EVEN SMALLER */
+
+
+@media (max-width: 479px) {
+    .landing__entry--email {
+        display: none;
+    }
+    
+    .landing__entry--btn {
+        display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    .landing__header {
+        text-align: center;
+    }
+
+    .landing__para {
+        text-align: center;
+    }
+    
+    .landing__customers--img {
+        width: 390px;
+    }
+
+    .feature {
+        padding: 32px 0;
+    }
+
+    .feature__icon {
+        padding: 12px;
+    }
+
+   .principles {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .principle {
+    text-align: center;
+   }
+
+   .principle__heading {
+    justify-content: center;
+   }
+
+   .call-to-action__text {
+    font-size: 20px;
+   }
+
+   .call-to-action__buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+   }
+
+   .get-started-btn {
+    margin-right: 0;
+    margin-bottom: 12px;
+   }
+
+   .contact-us-btn {
+    margin-right: 0;
+   }
+
+   .footer__menu {
+    width: 50%;
+    padding-bottom: 48px;
+   }
+
+   .footer__logo--container {
+    font-size: 14px;
+   }
+
+   .footer__copyright {
+    font-size: 12px;
+    text-align: center;
+   }
+
+   .footer__socials--link {
+    margin-right: 8px;
+   }
+}    
