@@ -292,12 +292,14 @@ nav {
 
 .work__info--title {
     width: 70%;
+    margin-top: 8px;
 }
 
 .work__info--para {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: #7c8ba1;
+    margin: 32px 12px 32px 0;
 }
 
 .work__img {
